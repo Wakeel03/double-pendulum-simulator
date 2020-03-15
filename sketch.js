@@ -123,8 +123,6 @@ function draw() {
     text(sliders[i], -W/2 + 10, -H/dH + i * 15, 100, 15);      
   }
   
-
-  
   grapX.stroke(0);
   if (frameCount > 1) {
     grapX.line(prev_x2, prev_y2, x2, y2);
